@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		ads:adUnitId="a14df8d1385d745" ads:adSize="BANNER" ads:loadAdOnCreate="false" />
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/firstrow">
+		<Button android:id="@+id/onebutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="1"
+			android:layout_weight="1" />
+		<Button android:id="@+id/twobutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="2"
+			android:layout_weight="1" />
+		<Button android:id="@+id/threebutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="3"
+			android:layout_weight="1" />
+	</TableRow>
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/secondrow">
+		<Button android:id="@+id/fourbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="4"
+			android:layout_weight="1" />
+		<Button android:id="@+id/fivebutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="5"
+			android:layout_weight="1" />
+		<Button android:id="@+id/sixbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="6"
+			android:layout_weight="1" />
+	</TableRow>
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/thirdrow">
+		<Button android:id="@+id/sevenbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="7"
+			android:layout_weight="1" />
+		<Button android:id="@+id/eightbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="8"
+			android:layout_weight="1" />
+		<Button android:id="@+id/ninebutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="9"
+			android:layout_weight="1" />
+	</TableRow>
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/fourthrow">
+		<Button android:id="@+id/starbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="*"
+			android:layout_weight="1" />
+		<Button android:id="@+id/zerobutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="0"
+			android:layout_weight="1" />
+		<Button android:id="@+id/poundbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="#"
+			android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/frequencytable">
+		<Button android:id="@+id/freqbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Play Frequency Hz"
+			 />
+		<EditText android:layout_width="fill_parent" android:id="@+id/freq"
+			android:text="1200" android:numeric="decimal" android:layout_height="wrap_content"
+			></EditText>
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/dialtable">
+		<Button android:id="@+id/dialbutton" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Dial Sequence"
+			 />
+		<EditText android:layout_width="fill_parent" android:id="@+id/dialnums"
+			android:text="5552234433" android:phoneNumber="true" android:layout_height="wrap_content"
+			></EditText>
+	</TableRow>
+	
+	
+
+
+
+</LinearLayout>
